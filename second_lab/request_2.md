@@ -1,0 +1,20 @@
+curl --request POST \
+--url 'https://kpi.eu.auth0.com/api/v2/users' \
+--header 'content-type: application/json' \
+--header 'authorization: Bearer
+eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjVCZTlBZFhrMERaUjhmR1dZYjdkViJ9.eyJpc3MiOiJodHRwczovL2twaS5ldS5hdXRoMC5jb20vIiwic3ViIjoiSkl2Q081YzJJQkhsQWUycGF0bjZsNnE1SDM1cXh0aTBAY2xpZW50cyIsImF1ZCI6Imh0dHBzOi8va3BpLmV1LmF1dGgwLmNvbS9hcGkvdjIvIiwiaWF0IjoxNzE1NTQ1OTkyLCJleHAiOjE3MTU2MzIzOTIsInNjb3BlIjoicmVhZDp1c2VycyBjcmVhdGU6dXNlcnMiLCJndHkiOiJjbGllbnQtY3JlZGVudGlhbHMiLCJhenAiOiJKSXZDTzVjMklCSGxBZTJwYXRuNmw2cTVIMzVxeHRpMCJ9.N8UXyTlWd475ubTRMitgjOzJ9QXGQQd0xhSjG_U45n7xUqikcVJwsJ9By5VZgYTYCt0AkmaUhj3CXhAKSHl8W-xoKe3AU1HlCbKCokNW-wvSM-f5Xo4XhJC6tzILPIg0oVYMGpFIjtvwk_gCGw1mQd4RF6mwIp8MzS5uu21lVXxpfCanKk_wQ9m3-iTgL58a52Z0SGG5p8eaHEEt12YHlUXZ4TdAK-hN0bqQfKYBkDRdBSFoVUrMeLiSNyDzvQ6uQ7ZcgdOofiDzt8xeqx5xg0S4fP7Fa6uHOR5IoyXEzpjyU6kp3GCONAiB_GTP_xCfZH6ojQU4cgYoz7G75MXnWQ' \
+--data '{
+"email": "usermail@example.com",
+"user_metadata": {},
+"blocked": false,
+"email_verified": false,
+"app_metadata": {},
+"given_name": "string",
+"family_name": "string",
+"name": "string",
+"nickname": "string",
+"user_id": "newuser",
+"connection": "Username-Password-Authentication",
+"password": "root_123",
+"verify_email": false
+}'
